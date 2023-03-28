@@ -1,0 +1,89 @@
+
+#small{
+    font-size:small;
+    color:black;
+    cursor:default;
+}
+#small.active{
+  color:white;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(90deg, green, yellow);
+}
+body.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg,rgb(3, 109, 154), rgb(21, 183, 169));
+}
+.container{
+    border:1px solid #222;
+    padding: 0.5cm;
+    border-radius: 0.2cm;
+    box-shadow: 0px 0px 8px 3px rgb(84, 76, 62);
+    background-color: rgb(241, 236, 236);
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#input{
+    width: auto;
+    height: 2.5cm;
+    width: 9.7cm;
+    padding: 0.2cm;
+    justify-content: center;
+    margin-bottom: 0.5cm;
+    margin-top: 0.5cm;
+    text-align:right;
+    font-size: 2cm;
+    font: optional;
+    border-radius: 0.2cm;
+    box-shadow: 3px 0.2px 6px 0px inset;
+}
+#input.active{
+    background-color: #626262;
+}
+#button{
+    margin: 0.2cm;
+    padding: 0.5cm;
+    border-radius: 0.7cm;
+    height: 2cm;
+    width: 2cm;
+    font-size: xx-large;
+    border:2px solid green;
+    background-color: rgb(122, 218, 122);
+}  
+#buttonzero{
+    height: 2cm;
+    width:4.5cm;
+    margin:0.2cm;
+    justify-content: center;
+    border-radius: 2cm;
+    font-size: xx-large;
+    border:2px solid rgb(242, 15, 53);
+    background-color: rgb(252, 122, 143);
+}
+#operator{
+    justify-content: center;
+    margin: 0.2cm;
+    padding: 0.5cm;
+    padding-right: 0.5cm;
+    border-radius: 0.7cm;
+    height: 2cm;
+    width: 2cm; 
+    font-size: xx-large;
+    border:2px solid rgb(234, 234, 2);
+    background-color: rgb(247, 247, 102);
+}
+#toggle-mode{
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container.active{
+    background-color: #222;
+}
